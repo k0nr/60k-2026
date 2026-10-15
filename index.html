@@ -16,11 +16,45 @@
 
     <div class="outer">
         <div class="header" >THE NEO-FUTURISTS <br>ARE RAISING <span style="color:#ec82fa">$50K IN 50 DAYS</span></div>
-        <div id="progressContainer" style="background-color: #cccccc; height: 46px; top: 40%; width: 80%; left: 10%;">
-            <div id="progressBar"
-            style="height: 46px; background-color: #d720ef; transition: width 2s ease 0s;"></div>
-                <!--update this percentage v v v -->
-                <span class="percentage">100!!!%</span></div>
+
+<div id="progressContainer">
+<!-- Donately · Progress -->
+<link rel="stylesheet" href="https://cdn.donately.com/dntly-components/2.3/donately-components.css">
+<style>
+.dntly-embed-progress-6cbbb633{all:initial;display:block;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.5;color:#101828}
+.dntly-embed-progress-6cbbb633 *,.dntly-embed-progress-6cbbb633 *::before,.dntly-embed-progress-6cbbb633 *::after{box-sizing:border-box;margin:0;padding:0}
+.dntly-embed-progress-6cbbb633 .card{background:#F2EBFF;border:1px solid #e6e8eb;border-radius:14px;overflow:hidden}
+.dntly-embed-progress-6cbbb633 .muted{color:#667085}
+.dntly-embed-progress-6cbbb633{--dntly-fg:#101828;--dntly-muted:#667085;--dntly-line:#e6e8eb}
+.dntly-embed-progress-6cbbb633 .card{max-width:520px;margin:0 auto;padding:20px}
+.dntly-embed-progress-6cbbb633 .row{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.dntly-embed-progress-6cbbb633 .v{font-size:20px;font-weight:700}
+.dntly-embed-progress-6cbbb633 .track{margin-top:12px;height:10px;border-radius:9999px;background:var(--dntly-line);overflow:hidden}
+.dntly-embed-progress-6cbbb633 .fill{height:100%;border-radius:9999px;background:#fff200}
+.dntly-embed-progress-6cbbb633 .don{margin-top:10px;font-size:13px}
+.dntly-embed-progress-6cbbb633 .don .v{font-size:14px}
+</style>
+<div class="dntly-embed-progress-6cbbb633">
+  <div class="card" data-dntly="dntly-campaign-details-component">
+    <div class="row">
+        <div><span class="v" data-dntly="cmp-amount-raised">$0</span> <span class="muted">raised</span></div>
+        <div class="muted">of <span data-dntly="cmp-goal">$60,000</span></div>
+      </div>
+      <div class="track"><div class="fill" data-dntly="cmp-progressbar-width" style="width:49%"></div></div>
+      <div class="don"><span class="v" data-dntly="cmp-donors-count">0</span> <span class="muted">donors</span></div>
+
+  </div>
+</div>
+<script src="https://cdn.donately.com/dntly-components/2.3/donately-components.min.js"></script>
+<script>
+  function dntlyReady(n,c){setTimeout(function(){window[n]?c():dntlyReady(n,c)},10)}
+  dntlyReady("DonatelyComponents",function(){
+    DonatelyComponents.componentHandler.buildComponents({options:{"donately-id":"act_a1f782c996db","campaign-id":"cmp_882b6cbbb633","donately-api-host":"api.donately.com"}})
+  });
+</script>
+
+<!-- end of Donately progress -->
+</div>
 
         <div id="begging">YOU DID IT,<br>WE DID IT,<br>SEE YOU AT NYE <3</div>
 

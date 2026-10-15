@@ -74,6 +74,15 @@ border-radius: 15px;
   height: 220px;
 }
 
+#progressContainer {
+  width: 100%;
+  height: 46px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  /* width: 80%;
+  left: 10%; */
+
+}
 
 
 @keyframes bar-fill {
