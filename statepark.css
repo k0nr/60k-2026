@@ -33,42 +33,15 @@ font-family: LeagueMono,Courier,monospace;
 background-color: rgba(0,0,0,0.4);
 text-align: center;
 font-size: 80;
-font-family: AbolitionTest,Courier,monospace;
+font-family: Dividente,Courier,monospace;
 border-radius: 15px;
 }
 
-
-/* CSS GENERATED FROM THE PROGRESSBARGENERATOR.COM */
-#progressContainer {
-  width: 100%;
-  background-color: #cccccc;
-  border-radius: 15px;
-  overflow: hidden;
-  font-family: AbolitionTest,Courier,monospace;
-  position: relative;
+.50k-title {
+  color: #D720EF;
+  -webkit-text-stroke: 2px white;
+  text-stroke: 2px white;
 }
-
-#progressBar {
-/* UPDATE THIS */
-  width: 100%;
-  height: 66px;
-  background-color: #d720ef;
-  animation: 5s ease-out 5s infinite normal bar-fill;
-  /* transition: width 2s ease 0s; */
-}
-
-.percentage {
-  position: absolute;
-  right: 50%;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 42px;
-  color: white;
-  padding-right: 5px;
-}
-
-/* end of automated CSS from the generator */
-
 
 #begging {
   position: relative;
@@ -114,6 +87,11 @@ border-radius: 15px;
 
     }
 
+}
+
+@font-face {
+  font-family: 'Dividente';
+  src:url('fonts/dividente/Dividente-ExtraBoldCondensed.otf')
 }
 
 @font-face {
